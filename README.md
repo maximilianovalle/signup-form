@@ -1,2 +1,4 @@
 # signup-form
-Signup form to practice form controls and concepts!
+Signup form created using vanilla HTML + CSS to practice form controls and concepts!
+
+![Screenshot](./signup-form.png)
