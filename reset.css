@@ -1,0 +1,47 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+  
+body {
+	line-height: 1.5;    /* vertical space between lines */
+	-webkit-font-smoothing: antialiased;
+
+	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* system font stack */
+	min-height: 100vh;
+}
+
+img, picture, video, canvas, svg {
+	display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;  /* inherits body font style */
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;  /* breaks large words instead of overflowing */
+    font-weight: normal;
+}
+  
+p {
+    text-wrap: pretty;
+	/* width: clamp(45ch, 50%, 75ch); */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+#root, #__next {
+    isolation: isolate;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form | Maximiliano Ovalle</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+</head>
+
+<body>
+
+    <h1>Create a new account</h1>
+
+    <h4>Fields marked with an asterisk * are required</h4>
+
+    <div id="formContainer">
+
+        <form action="" method="">
+
+            <label for="emailAddress" class="labelMargin">*Email Address</label>
+            <input id="emailAddress" type="email" placeholder="thor@gmail.com" required>
+
+            <div>
+                <div>
+                    <label for="firstName" class="labelMargin">*First Name</label>
+                    <input id="firstName" type="text" placeholder="Thor" name="first_name" required>
+                </div>
+
+                <div>
+                    <label for="lastName" class="labelMargin">*Last Name</label>
+                    <input id="lastName" type="text" placeholder="Odinson" name="last_name" required>
+                </div>
+            </div>
+
+            <label for="telNum" class="labelMargin">Telephone Number</label>
+            <input id="telNum" type="tel">
+
+            <label for="password" class="labelMargin">*Password</label>
+            <input id="password" type="password" placeholder="********" required>
+
+            <label for="passwordConfirm" class="labelMargin">*Confirm Password</label>
+            <input id="passwordConfirm" type="password" placeholder="********" required>
+
+            <p id="miniText">This is not a real online service. Your information will not be processed or stored.</p>
+
+            <button type="submit">Create Account</button>
+
+        </form>
+
+        <p>Already have an account? <a href=""><em>Sign in</em></a></p>
+
+    </div>
+
+</body>
+
+</html>
